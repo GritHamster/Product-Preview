@@ -1,0 +1,107 @@
+body{
+  background-color: hsl(30, 38%, 92%);
+}
+.perfume{
+  color: hsl(228, 12%, 48%);
+  letter-spacing: 3px;
+  font-size: 20px;
+  width: 40%;
+  font-weight: 700;
+  font-family:'Montserrat', serif;
+
+}
+p{
+  font-size: 1rem;
+  color: hsl(228, 12%, 48%);
+
+}
+#heading{
+  color:hsl(212, 21%, 14%);
+  font-family:'Fraunces', serif;
+  font-weight: 700;
+  width:40%;
+
+}
+h1{
+  color:green;
+  font-family:'Fraunces', serif;
+  font-weight: 700;
+  width:40%;
+
+}
+
+.price{
+  display: inline block;
+  width: 30%;
+}
+.O-P{
+  position:relative;
+  width: 20%;
+  left: 150px;
+  bottom: 55px;
+  text-decoration:line-through;
+
+}
+.floral{
+  width: 40%;
+  font-family:'Montserrat', serif;
+  letter-spacing: 1px;
+  display: inline-block;
+  weight: 500 700;
+
+}
+.perfume-picture{
+  position:relative;
+  height: 500px;
+  left: 300px;
+  top: 38px;
+  margin-top: 50px;
+  border-top-left-radius: 3%;
+  border-bottom-left-radius: 3%
+}
+
+
+.btn {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Arial;
+  text-align: center;
+  color: #ffffff;
+  font-size: 20px;
+  background: #158a22;
+  padding: 12px 17px 12px 18px;
+  text-decoration: none;
+  width: 50%;
+  position: relative;
+  bottom: 50px;
+
+}
+
+.btn:hover {
+  background: #2c9934;
+  text-decoration: none;
+}
+
+
+.description{
+position:absolute;
+left:641px;
+right: 150px;
+top: 115px;
+bottom: 150px;
+padding:20px;
+margin-right: 56px;
+margin-left: auto;
+font-family: 'Montserrat', serif;
+background-color: hsl(0, 0%, 100%);
+border-top-right-radius: 3%;
+border-bottom-right-radius: 3%;
+height: 462px;
+;
+}
+
+
+
+.attribution { font-size: 12px; text-align: center; position: relative; top: 50px;}
+.attribution a { color: hsl(228, 45%, 44%); }
